@@ -13,6 +13,7 @@
 
 */
 
+/* First, I added a style that would affect all video elements. This style displays them as blocks so that they're on their own line and I gave it a width of 90% of the article. I also centered the video. */
 /* VideoPlayer Styles */
 video {
     display: block;
@@ -23,6 +24,7 @@ video {
     margin-right: auto;
 }
 
+/* Next, I made styles for all screens with a minimum width of 521 pixels to give the video element a width of 360 pixels. I also made it so that the video will appear on the right side of the article. */
 @media only screen and (min-width: 521px) {
     video {
         width: 360px;
@@ -31,6 +33,7 @@ video {
     }
 }
 
+/* Finally, I added a style that will only affect the caption text. I made the captions a bit bigger and I also gave them a specific font. Finally, I gave the caption text itself an pink-orange ish color that will contrast with the greyish background color that I also inserted for the captions. */
 /* Track Styles */
 ::cue {
     font-size: 1.3em;
